@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "json-server": "json-server --watch db.json --port 3001"
+    "json-server": "json-server --watch json_server/db.json --port 3001 --middlewares ./json_server/middleware.js"
   },
   "eslintConfig": {
     "extends": [
